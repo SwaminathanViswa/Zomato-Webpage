@@ -1,9 +1,30 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
+} */
+
+/* .box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  animation: 10s abc infinite;
+  animation-delay: 2s
 }
 
-body {
+@keyframes abc {
+  20% {
+    margin-left: 500px;
+    background-color: red;
+
+  }
+  50% {
+    margin-left: 500px;
+    background-color: black;
+    transform: rotate(30deg);
+  }
+} */
+
+/* body {
   font-family: 'Merriweather', serif;
   background-color: #ebf2ff;
 }
@@ -167,4 +188,4 @@ body {
   .explore__menu__text {
     font-size: 48px;
   }
-}
+} */
