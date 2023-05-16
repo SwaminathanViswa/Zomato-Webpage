@@ -61,3 +61,77 @@ do {
 } while (num1<=100);
 
 */
+
+//FUNCTIONS
+
+/*const items = {
+  food:1000,
+  drinks:2000
+};
+
+var cart = 0;
+
+//Arrow function --> It has its drawbacks also
+var addToCart = (item) =>{ //parameter
+  return cart+item
+};
+
+function addCartValue(item) {
+  cart = addToCart(item)
+}
+
+addCartValue(items.drinks);
+
+console.log("cart: ", cart);*/
+
+
+//this (a lesson on using the keyword mentioned)
+
+/*const ourObject = {
+  name: "this keyword",
+  getThis: function() {
+    console.log(this);
+  }
+}
+ourObject.getThis();
+
+function getThis() {
+  console.log(this);
+}
+
+getThis();
+const arrowGetThis = () => {
+  console.log(this);
+};
+arrowGetThis();*/
+
+
+//arrays
+
+/*var myArray = [1,2,3,4,5,6];
+console.log(myArray);
+myArray.push(7);
+console.log(myArray);
+myArray.pop();
+console.log(myArray);
+myArray.unshift(0);
+console.log(myArray);
+myArray.shift();
+console.log(myArray);*/
+
+//Recursive FUNCTIONS
+
+/*var num=1
+function printNum() {
+  console.log(num);
+  num++
+
+  if(num<=10) {
+    printNum();
+  }
+
+  else {
+    return;
+  }
+}
+printNum();*/
